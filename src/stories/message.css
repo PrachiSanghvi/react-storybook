@@ -1,0 +1,19 @@
+.storybook-message {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: fit-content;
+  font-weight: 600;
+  padding: 1rem 3rem;
+  text-align: left;
+  color: white;
+}
+.storybook-message--success {
+  background-color: rgb(1, 226, 1);
+}
+.storybook-message--error {
+  background-color: rgb(255, 55, 55);
+}
+.storybook-message--warning {
+  background-color: rgb(255, 179, 37);
+}
